@@ -1,0 +1,19 @@
+@media (max-width: 992px) {
+    .celu {
+        font-size: $xxx-large;
+        font-family: $playfairs;
+        color: $white;
+        transform: translate(-50%, -50%);    }
+     .centrar{
+        justify-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        align-self: center;
+        text-align: center;
+    }
+
+}
+  
