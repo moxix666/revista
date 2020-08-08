@@ -1,0 +1,24 @@
+/* Inputs */
+.form__label {
+    margin-top: .5rem;
+    padding-bottom: .3rem;
+    font-family: $roboto;
+    font-size: $x-small;
+    color: $nickel;
+    }
+    
+.form__input-text, .form__input-date, .form__select {
+    height: 30px;
+    padding-left: 5px;
+    font-size: $small;
+    color: $nickel;
+     }
+        
+ .form__input-text, .form__input-date {
+    border-radius: 5px;
+    border: 1px solid $nickel
+    }
+
+.form__select {
+     background-color: $white;
+    }

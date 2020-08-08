@@ -1,0 +1,42 @@
+/* Buttons */
+
+ .a1 {
+    
+    background-color: $nickel;
+ }
+
+ .boton-inicio{
+    border-radius: 18px 0 0 18px;
+ }
+
+ .boton-final{
+    border-radius: 0 18px 18px 0;
+ }
+
+ .page-active {
+    background-color: #6C6E70;
+    color: white;
+    border: 1px solid #6C6E70;
+ }      
+.boton__1 {
+    margin-left: 60px;
+    border-radius: 50px;
+    background-color: $nickel;
+    color: $white;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    padding: 10px; /*espacio alrededor texto*/
+}
+.boton__2 {
+    margin-left: 40px;
+    border-radius: 50px;
+    background-color: $nickel;
+    color: $white;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    padding: 10px; /*espacio alrededor texto*/
+}
+
+   
