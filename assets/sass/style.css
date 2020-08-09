@@ -12,6 +12,13 @@ body {
   text-align: center;
 }
 
+.pos {
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
 .contenedor {
   width: 960px;
   margin: 0 auto;
@@ -20,7 +27,7 @@ body {
 .menu {
   width: 960px;
   padding: 10px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid grey;
 }
 
 .logo {
@@ -61,26 +68,18 @@ body {
   float: right;
 }
 
-.cabecera-listado {
-  width: 220px;
-  border-bottom: 1px solid grey;
-}
-
-.noticias-destacadas {
-  margin-bottom: 50px;
-}
-
 .noticias-destacadas img {
   width: 220px;
   height: 200px;
 }
 
 .newsletter {
-  width: 960px;
   background-color: #f2f4f5;
+  width: 960px;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  display: inline-block;
 }
 
 .newsletter h2 {
@@ -88,14 +87,14 @@ body {
 }
 
 .nav {
-  display: inline-block;
   width: 840px;
   text-align: right;
 }
 
-.nav ul li a {
+.nav, ul, li {
   text-decoration: none;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 .group input,
@@ -109,6 +108,15 @@ body {
 .group button {
   background-color: coral;
   color: white;
+}
+
+.cabecera-listado {
+  width: 220px;
+  border-bottom: 1px solid grey;
+}
+
+.noticias-destacadas {
+  margin-bottom: 50px;
 }
 
 .input-menu {
@@ -125,6 +133,7 @@ body {
 }
 
 .tags ul li {
+  display: inline;
   padding: 2px 4px;
   background-color: steelblue;
   margin-right: 1px;

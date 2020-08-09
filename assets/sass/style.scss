@@ -7,11 +7,11 @@
 //@import "vendors/bootstrap/bootstrap";
 // Base
 @import 'base/reset';
-//@import 'base/typography';
+@import 'base/typography';
 @import 'base/base';
 // Layout
 //@import 'layout/header';
-//@import 'layout/main-section';
+@import 'layout/main-section';
 @import 'layout/forms';
 @import 'layout/navigation';
 // Components

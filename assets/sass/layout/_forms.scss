@@ -6,7 +6,7 @@
 .menu {
     width: 960px;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid $gris;
 }
 .logo {
     font-size: 24px;
@@ -39,25 +39,27 @@
     width: 220px;
     float: right;
 }
-.cabecera-listado {
-    width: 220px;
-    border-bottom: 1px solid $gris;
-}
-.noticias-destacadas {
-    margin-bottom: 50px;
-}
-
 .noticias-destacadas img {
     width: 220px;
     height: 200px;
 }
 .newsletter {
-    width: 960px;
     background-color: $blanco1;
+    width: 960px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: inline-block;
 }
 .newsletter h2 {
     font-size: 24px
+}
+.nav {
+    width: 840px;
+    text-align: right;
+}
+.nav, ul, li {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block
 }
