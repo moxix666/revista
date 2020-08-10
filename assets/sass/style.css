@@ -2,6 +2,11 @@
   .borrar {
     display: none;
   }
+
+  .responsivo {
+    width: 100%;
+    text-align: center;
+  }
 }
 .col-xs-12 {
   grid-column: span 12;
@@ -52,6 +57,18 @@
 }
 
 @media (min-width: 768px) {
+  .ver {
+    max-width: 210px;
+  }
+
+  .ver img {
+    max-width: 210px;
+  }
+
+  .fin {
+    margin-bottom: 18.229vw;
+  }
+
   .container {
     width: 750px;
   }
@@ -277,14 +294,13 @@ body {
 }
 
 .noticia {
-  max-width: 210px;
   display: inline-block;
   margin: 5px;
   cursor: pointer;
 }
 
 .cuerpo img {
-  max-width: 210px;
+  width: 100%;
   height: 300px;
 }
 
@@ -299,7 +315,7 @@ body {
 }
 
 .noticias-destacadas img {
-  max-width: 220px;
+  width: 21.875vw;
   height: 200px;
 }
 
@@ -311,10 +327,6 @@ body {
   padding-bottom: 3.125vw;
   display: inline-block;
   position: static;
-}
-
-.fin {
-  margin-bottom: 18.229vw;
 }
 
 .nav {

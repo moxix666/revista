@@ -1,8 +1,14 @@
 //@media (max-width: 576px) {}
 //@media (max-width: 768px) {}
-@media (max-width: 992px) { .borrar {
+@media (max-width: 992px) {
+  .borrar {
     display: none;
-}}
+  }
+  .responsivo {
+    width: 100%;
+    text-align: center;
+  }
+}
 //@media (max-width: 1200px) {}
 @media (min-width: 576px) {
 }
@@ -43,6 +49,15 @@
   grid-column: span 1;
 }
 @media (min-width: 768px) {
+  .ver {
+    max-width: 210px;
+  }
+  .ver img {
+    max-width: 210px;
+  }
+  .fin {
+    margin-bottom: 18.229vw;
+  }
   .container {
     width: 750px;
   }
