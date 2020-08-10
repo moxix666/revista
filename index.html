@@ -7,18 +7,25 @@
     <link rel="stylesheet" type="text/css" href="assets/sass/style.css">
 </head>
 
-<body>
+<body class="container">
     <div class="contenedor">
-        <div class="menu">
-            <div class="logo">Diario</div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
-                    <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
-                </ul>
+        <div class="menu ">
+            <div class="logo col-lg-2 col-md-2 col-sm-2 col-xs-2">Diario</div>
+            <div class="nav col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <ul>
+                <li class="borrar"><a href="">Nosotros</a></li>
+                <li><a href="">Contacto</a></li>
+                <li>
+                  <input
+                    class="input-menu"
+                    type="text"
+                    name="buscar"
+                    placeholder="buscar..."
+                  />
+                </li>
+              </ul>
             </div>
-        </div>
+          </div>
         <div class="contenido">
             <div class="listad-noticias">
                 <div class="noticia">
@@ -86,7 +93,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="noticia">
+                <div class="noticia fin">
                     <div class="cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -100,7 +107,7 @@
                     </div>
                 </div>
             </div>
-            <div class="listado-izquierdo">
+            <div class="listado-izquierdo borrar">
                 <div class="cabecera-listado">
                     <h1>Nosotros </h1>
                     <p>
@@ -134,16 +141,18 @@
                 </div>
             </div>
         </div>
-        <div class="newsletter">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-            <div class="group">
-                <input type="text" name=""><button>Suscríbete</button>
+        <div class="nav largo">
+            <div class="newsletter">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                <div class="group">
+                    <input type="text" name=""><button>Suscríbete</button>
+                </div>
             </div>
-        </div>
-        <div class="footer">
-            <p>Todos los derechos reservados</p>
-        </div>
+            <div class="footer">
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>       
     </div>
 </body>
 
